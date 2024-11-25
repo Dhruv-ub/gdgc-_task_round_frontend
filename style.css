@@ -1,0 +1,175 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Arial', sans-serif;
+    color: white;
+    background-color: #000;
+    line-height: 1.6;
+  }
+  
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+  }
+  .navbar .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  .navbar .logo .green {
+    color: #00ff00;
+  }
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    padding-right: 628px;
+}
+
+.navbar ul li {
+    cursor: pointer;
+  }
+  .mnav{
+    padding: 10px;
+    padding-right: 15px;
+  }
+  .navbar ul .signup {
+    border: 1px solid white;
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+  }
+  .btn{
+    margin-left: 1228px;
+    margin-top: -47px;
+    cursor: pointer;
+  }
+  .line{
+    margin-left: 48px;
+  }
+  .mine{
+    font-size: 58px;
+    margin-top: 53px;
+    margin-left: 48px;
+  }
+  pre{
+    font-size: 58px;
+    display: flex;
+    height: 70px;
+    width: 35px;
+  }
+  .circle-image{
+    border-radius: 50%; 
+    object-fit: cover; 
+    margin-top: 15px;
+  }
+  .side{
+    margin-left: 45px;
+  }
+  .idk{
+    padding-left: 43px;
+    padding-top: 15px;
+
+  }
+  .play-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 90px;
+    margin-left: 70px; 
+  }
+  
+  .play-button {
+    width: 50px; 
+    height: 50px; 
+    background-color: #fff; 
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .triangle {
+    width: 0;
+    height: 0;
+    border-left: 12px solid #000; 
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    margin-left: 3px;
+  }
+  
+  .play-text {
+    font-size: 16px; 
+    font-family: 'Arial', sans-serif; 
+    color: #fff; 
+    cursor: pointer;
+  }
+
+   .btn-card-container {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start; 
+    padding: 30px;
+  }
+  
+  .btns {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    margin-left: 15px;
+}
+
+.buto {
+    background-color: black;
+    color: white;
+    border: solid white 1px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    cursor: pointer;
+    border-radius: 25px;
+  }
+  
+  .buto:hover {
+    background-color: #333;
+  }
+  
+  .cards-container {
+    display: flex;
+    gap: 10px; 
+    margin-left: 95px;
+    padding-bottom: 15px;
+  }
+  
+  .card {
+    flex: 1; 
+    color: black; 
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px; 
+    border-radius: 10px;
+  }
+  
+  .orange-card {
+    background-color: orange;
+  }
+  
+  .white-card {
+    background-color: white;
+  }
+  
+  .yellow-card {
+    background-color: yellow;
+  }
+  
